@@ -28,7 +28,7 @@ public class UserController {
     @GetMapping("/index")
     public Result index(){
         User user = userService.getById(1L);
-        return Result.fail("错误请求！");
+        return Result.fail("错误请求1！");
 
     }
 
